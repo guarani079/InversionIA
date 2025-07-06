@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,12 +12,16 @@
     <style>
         body {
             font-family: 'Inter', sans-serif;
-            background-color: #f8fafc; /* Un gris muy claro, casi blanco */
+            background-color: #f8fafc;
+            /* Un gris muy claro, casi blanco */
             color: #333;
         }
+
         .container {
-            max-width: 1200px; /* Un ancho un poco mayor para el contenido */
+            max-width: 1200px;
+            /* Un ancho un poco mayor para el contenido */
         }
+
         /* Estilos para el gradiente de texto en el título principal */
         .gradient-text {
             background-clip: text;
@@ -25,24 +30,34 @@
         }
     </style>
 </head>
+
 <body class="flex flex-col min-h-screen">
     <!-- Encabezado de la página -->
     <header class="bg-gray-900 text-white p-6 shadow-2xl rounded-b-xl">
         <div class="container mx-auto flex flex-col md:flex-row justify-between items-center">
             <!-- Título/Marca con gradiente de texto -->
-            <!-- COMIENZA AQUÍ: Edita el nombre de tu marca o tu nombre -->
-            <h1 class="text-4xl lg:text-5xl font-extrabold mb-4 md:mb-0 gradient-text bg-gradient-to-r from-green-400 to-blue-500">
-               TIPS para el buen INVERSOR
+            <h1
+                class="text-4xl lg:text-5xl font-extrabold mb-4 md:mb-0 gradient-text bg-gradient-to-r from-green-400 to-blue-500">
+                TIPS para el buen INVERSOR
             </h1>
-            <!-- TERMINA AQUÍ: Edita el nombre de tu marca o tu nombre -->
             <!-- Navegación principal - Puedes cambiar los textos de los enlaces si lo deseas -->
             <nav>
                 <ul class="flex flex-wrap justify-center space-x-6 text-lg font-medium">
-                    <li><a href="#" class="hover:text-green-300 transition duration-300 transform hover:scale-105">Inicio</a></li>
-                    <li><a href="#" class="hover:text-green-300 transition duration-300 transform hover:scale-105">Acerca de Mí</a></li>
-                    <li><a href="#" class="hover:text-green-300 transition duration-300 transform hover:scale-105">Experticia</a></li>
-                    <li><a href="#" class="hover:text-green-300 transition duration-300 transform hover:scale-105">Servicios</a></li>
-                    <li><a href="#" class="hover:text-green-300 transition duration-300 transform hover:scale-105">Contacto</a></li>
+                    <li><a href="#"
+                            class="hover:text-green-300 transition duration-300 transform hover:scale-105">Inicio</a>
+                    </li>
+                    <li><a href="#"
+                            class="hover:text-green-300 transition duration-300 transform hover:scale-105">Acerca de
+                            Mí</a></li>
+                    <li><a href="#niveles-section"
+                            class="hover:text-green-300 transition duration-300 transform hover:scale-105">Niveles</a>
+                    </li>
+                    <li><a href="#"
+                            class="hover:text-green-300 transition duration-300 transform hover:scale-105">Servicios</a>
+                    </li>
+                    <li><a href="#"
+                            class="hover:text-green-300 transition duration-300 transform hover:scale-105">Contacto</a>
+                    </li>
                 </ul>
             </nav>
         </div>
@@ -51,20 +66,18 @@
     <!-- Sección Hero / Banner Principal -->
     <section class="bg-gradient-to-br from-blue-700 to-indigo-900 text-white py-24 px-8 text-center shadow-lg">
         <div class="container mx-auto">
-            <!-- COMIENZA AQUÍ: Edita el título principal de tu página -->
             <h2 class="text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-                TIPS para no morir en el intento en el Mundo del Trading y las Finanzas.
+                El complejo Mundo del Trading y las Finanzas.
+                Tips para no morir en el intento
             </h2>
-            <!-- TERMINA AQUÍ: Edita el título principal de tu página -->
-            <!-- COMIENZA AQUÍ: Edita la descripción corta de tu propuesta de valor -->
             <p class="text-xl lg:text-2xl leading-relaxed mb-10 max-w-4xl mx-auto opacity-90">
-                Diferentes niveles, segun tu conocimiento, tu avanzas a medida que ganas confianza. 
+                Diferentes niveles, segun tu conocimiento, tu avanzas a medida que ganas confianza.
             </p>
-            <!-- TERMINA AQUÍ: Edita la descripción corta de tu propuesta de valor -->
-            <!-- Botón de llamada a la acción principal - Puedes cambiar el texto del botón -->
-            <button class="bg-green-400 hover:bg-green-500 text-gray-900 font-bold py-4 px-10 rounded-full shadow-lg transform transition duration-300 hover:scale-110 focus:outline-none focus:ring-4 focus:ring-green-300">
-                [Explora mis Insights]
-            </button>
+            <!-- Botón de llamada a la acción principal - Ahora apunta a la nueva sección de niveles -->
+            <a href="#niveles-section"
+                class="inline-block bg-green-400 hover:bg-green-500 text-gray-900 font-bold py-4 px-10 rounded-full shadow-lg transform transition duration-300 hover:scale-110 focus:outline-none focus:ring-4 focus:ring-green-300">
+                VER NIVELES
+            </a>
         </div>
     </section>
 
@@ -73,66 +86,123 @@
 
         <!-- Sección "Acerca de Mí" -->
         <section class="mb-16 text-center">
-            <!-- COMIENZA AQUÍ: Edita el título de la sección "Acerca de Mí" -->
             <h3 class="text-4xl font-bold mb-6 text-gray-800">Acerca de Nosotros</h3>
-            <!-- TERMINA AQUÍ: Edita el título de la sección "Acerca de Mí" -->
             <div class="max-w-3xl mx-auto text-lg text-gray-700 leading-relaxed">
-                <!-- COMIENZA AQUÍ: Edita el primer párrafo de tu presentación -->
                 <p class="mb-4">
-                     TIPS para el INVERSOR, somos un equipo de gente comun, apasionada de los mercados financieros mundiales, que cree firmemente que cualquier persona, interesada en Inversiones, utiizando el sentido comun y las herramientas necesarias, puede llegar a triunfar en el complejo mundo de las Inversiones.
+                    TIPS para el INVERSOR, somos un equipo de gente comun, apasionada de los mercados financieros
+                    mundiales, que cree firmemente que cualquier persona, interesada en Inversiones, utiizando el
+                    sentido comun y las herramientas necesarias, puede llegar a triunfar en el complejo mundo de las
+                    Inversiones.
                 </p>
-                <!-- TERMINA AQUÍ: Edita el primer párrafo de tu presentación -->
-                <!-- COMIENZA AQUÍ: Edita el segundo párrafo de tu presentación -->
                 <p>
-                 
+
                 </p>
-                <!-- TERMINA AQUÍ: Edita el segundo párrafo de tu presentación -->
             </div>
         </section>
 
         <hr class="my-16 border-gray-200">
 
-        <!-- Sección "" -->
+        <!-- Sección "Mis Áreas de Experticia" -->
         <section class="mb-16">
-            <!-- COMIENZA AQUÍ: Edita el título de la sección de experticia -->
             <h3 class="text-4xl font-bold mb-10 text-center text-gray-800">Mis Áreas de Experticia</h3>
-            <!-- TERMINA AQUÍ: Edita el título de la sección de experticia -->
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <!-- Tarjeta de Experticia: Trading -->
-                <div class="bg-blue-50 p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 transform hover:-translate-y-1">
-                    <div class="text-5xl text-blue-600 mb-4 text-center">📈</div> <!-- Icono de Trading (puedes reemplazarlo con SVG) -->
-                    <!-- COMIENZA AQUÍ: Edita el título de la tarjeta de Trading -->
+                <div
+                    class="bg-blue-50 p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 transform hover:-translate-y-1">
+                    <div class="text-5xl text-blue-600 mb-4 text-center">📈</div>
                     <h4 class="text-2xl font-semibold mb-3 text-gray-800 text-center">[Trading Estratégico]</h4>
-                    <!-- TERMINA AQUÍ: Edita el título de la tarjeta de Trading -->
-                    <!-- COMIENZA AQUÍ: Edita la descripción de la tarjeta de Trading -->
                     <p class="text-gray-700 text-center">
-                        [Dominio de diversas estrategias de trading, desde el day trading hasta el swing trading, con un enfoque en la gestión de riesgo y la psicología del mercado.]
+                        [Dominio de diversas estrategias de trading, desde el day trading hasta el swing trading, con un
+                        enfoque en la gestión de riesgo y la psicología del mercado.]
                     </p>
-                    <!-- TERMINA AQUÍ: Edita la descripción de la tarjeta de Trading -->
                 </div>
                 <!-- Tarjeta de Experticia: Finanzas Personales -->
-                <div class="bg-green-50 p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 transform hover:-translate-y-1">
-                    <div class="text-5xl text-green-600 mb-4 text-center">💰</div> <!-- Icono de Finanzas (puedes reemplazarlo con SVG) -->
-                    <!-- COMIENZA AQUÍ: Edita el título de la tarjeta de Finanzas Personales -->
+                <div
+                    class="bg-green-50 p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 transform hover:-translate-y-1">
+                    <div class="text-5xl text-green-600 mb-4 text-center">💰</div>
                     <h4 class="text-2xl font-semibold mb-3 text-gray-800 text-center">[Finanzas Personales]</h4>
-                    <!-- TERMINA AQUÍ: Edita el título de la tarjeta de Finanzas Personales -->
-                    <!-- COMIENZA AQUÍ: Edita la descripción de la tarjeta de Finanzas Personales -->
                     <p class="text-gray-700 text-center">
-                        [Guía para construir una base financiera sólida, optimizar ahorros, gestionar deudas y planificar para el futuro.]
+                        [Guía para construir una base financiera sólida, optimizar ahorros, gestionar deudas y
+                        planificar para el futuro.]
                     </p>
-                    <!-- TERMINA AQUÍ: Edita la descripción de la tarjeta de Finanzas Personales -->
                 </div>
                 <!-- Tarjeta de Experticia: Inversión a Largo Plazo -->
-                <div class="bg-purple-50 p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 transform hover:-translate-y-1">
-                    <div class="text-5xl text-purple-600 mb-4 text-center">📊</div> <!-- Icono de Inversión (puedes reemplazarlo con SVG) -->
-                    <!-- COMIENZA AQUÍ: Edita el título de la tarjeta de Inversión a Largo Plazo -->
+                <div
+                    class="bg-purple-50 p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 transform hover:-translate-y-1">
+                    <div class="text-5xl text-purple-600 mb-4 text-center">📊</div>
                     <h4 class="text-2xl font-semibold mb-3 text-gray-800 text-center">[Inversión a Largo Plazo]</h4>
-                    <!-- TERMINA AQUÍ: Edita el título de la tarjeta de Inversión a Largo Plazo -->
-                    <!-- COMIENZA AQUÍ: Edita la descripción de la tarjeta de Inversión a Largo Plazo -->
                     <p class="text-gray-700 text-center">
-                        [Principios de inversión en acciones, bonos, bienes raíces y otros activos para el crecimiento patrimonial a largo plazo.]
+                        [Principios de inversión en acciones, bonos, bienes raíces y otros activos para el crecimiento
+                        patrimonial a largo plazo.]
                     </p>
-                    <!-- TERMINA AQUÍ: Edita la descripción de la tarjeta de Inversión a Largo Plazo -->
+                </div>
+            </div>
+        </section>
+
+        <hr class="my-16 border-gray-200">
+
+        <!-- SECCIÓN: Nuestros Niveles de Conocimiento -->
+        <section id="niveles-section" class="mb-16">
+            <h3 class="text-4xl font-bold mb-10 text-center text-gray-800">Nuestros Niveles de Conocimiento</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Nivel 1: Principiante -->
+                <div class="bg-white p-6 rounded-lg shadow-md border border-gray-200 hover:shadow-lg transition duration-300">
+                    <h4 class="text-2xl font-semibold mb-3 text-blue-700">Nivel 1: Fundamentos del Inversor</h4>
+                    <p class="text-gray-700 mb-4">
+                        Ideal para quienes dan sus primeros pasos. Por donde comienzo ?
+                    </p>
+                    <!-- Enlace a la sección de contenido del Nivel 1 -->
+                    <a href="#contenido-nivel1" class="text-blue-500 hover:text-blue-700 font-medium">Ver Contenido &rarr;</a>
+                </div>
+                <!-- Nivel 2: Intermedio -->
+                <div class="bg-white p-6 rounded-lg shadow-md border border-gray-200 hover:shadow-lg transition duration-300">
+                    <h4 class="text-2xl font-semibold mb-3 text-blue-700">Nivel 2: Estrategias y Análisis</h4>
+                    <p class="text-gray-700 mb-4">
+                        Profundiza en análisis técnico y fundamental, gestión de riesgo y desarrollo de estrategias de trading.
+                    </p>
+                    <a href="#" class="text-blue-500 hover:text-blue-700 font-medium">Ver Contenido &rarr;</a>
+                </div>
+                <!-- Nivel 3: Avanzado -->
+                <div class="bg-white p-6 rounded-lg shadow-md border border-gray-200 hover:shadow-lg transition duration-300">
+                    <h4 class="text-2xl font-semibold mb-3 text-blue-700">Nivel 3: Trading y Gestión Avanzada</h4>
+                    <p class="text-gray-700 mb-4">
+                        Para inversores experimentados. Optimización de portafolios, derivados y psicología avanzada del mercado.
+                    </p>
+                    <a href="#" class="text-blue-500 hover:text-blue-700 font-medium">Ver Contenido &rarr;</a>
+                </div>
+            </div>
+            <!-- Botón para ver más detalles sobre los niveles -->
+            <div class="text-center mt-12">
+                <a href="#" class="inline-block bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-8 rounded-full shadow-lg transform transition duration-300 hover:scale-105 focus:outline-none focus:ring-4 focus:ring-indigo-400">
+                    Conoce Más sobre los Niveles
+                </a>
+            </div>
+        </section>
+
+        <hr class="my-16 border-gray-200">
+
+        <!-- NUEVA SECCIÓN: Contenido del Nivel 1 -->
+        <section id="contenido-nivel1" class="mb-16 p-8 bg-blue-50 rounded-lg shadow-md">
+            <h3 class="text-4xl font-bold mb-6 text-blue-800 text-center">Nivel 1: Fundamentos del Inversor</h3>
+            <div class="max-w-4xl mx-auto text-lg text-gray-700 leading-relaxed">
+                <p class="mb-4">
+                    ¡Bienvenido al punto de partida de tu viaje en el mundo de las inversiones! En este nivel, sentaremos las bases esenciales para que entiendas cómo funciona el mercado y cuáles son los conceptos clave que todo inversor debe conocer.
+                </p>
+                <h4 class="text-2xl font-semibold mb-3 text-blue-700">¿Qué aprenderás aquí?</h4>
+                <ul class="list-disc list-inside mb-4 pl-4">
+                    <li class="mb-2">**Conceptos Básicos:** Entenderás qué es el trading, la inversión, los activos financieros (acciones, bonos, criptomonedas, etc.) y los diferentes tipos de mercados.</li>
+                    <li class="mb-2">**Terminología Esencial:** Familiarízate con términos como "bull market", "bear market", "volatilidad", "liquidez" y "spread".</li>
+                    <li class="mb-2">**Plataformas de Inversión:** Conocerás las diferentes opciones para operar en los mercados y cómo elegir la más adecuada para ti.</li>
+                    <li class="mb-2">**Gestión de Riesgo para Principiantes:** Introducción a la importancia de proteger tu capital y cómo evitar errores comunes.</li>
+                    <li class="mb-2">**Psicología del Inversor:** Comprenderás cómo las emociones pueden influir en tus decisiones y cómo desarrollar una mentalidad disciplinada.</li>
+                </ul>
+                <p class="mb-4">
+                    Nuestro objetivo es que al finalizar este nivel, te sientas cómodo con el lenguaje financiero y tengas una base sólida para explorar estrategias más avanzadas. Recuerda, la educación es tu mejor inversión.
+                </p>
+                <div class="text-center mt-8">
+                    <a href="#" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-full shadow-lg transform transition duration-300 hover:scale-105 focus:outline-none focus:ring-4 focus:ring-blue-400">
+                        Ir al Primer Módulo del Nivel 1
+                    </a>
                 </div>
             </div>
         </section>
@@ -141,17 +211,13 @@
 
         <!-- Sección de Llamada a la Acción para Servicios (más prominente) -->
         <section class="text-center bg-gradient-to-r from-blue-500 to-indigo-600 text-white p-10 rounded-lg shadow-xl">
-            <!-- COMIENZA AQUÍ: Edita el título de la llamada a la acción de servicios -->
             <h3 class="text-4xl font-bold mb-4">
                 [¿Listo para Elevar tus Conocimientos Financieros?]
             </h3>
-            <!-- TERMINA AQUÍ: Edita el título de la llamada a la acción de servicios -->
-            <!-- COMIENZA AQUÍ: Edita la descripción de la llamada a la acción de servicios -->
             <p class="text-xl leading-relaxed mb-8 max-w-3xl mx-auto">
-                [Próximamente, ofreceré servicios de consultoría personalizada, talleres y cursos especializados. ¡No te pierdas la oportunidad de aprender directamente de un experto!]
+                [Próximamente, ofreceré servicios de consultoría personalizada, talleres y cursos especializados. ¡No te
+                pierdas la oportunidad de aprender directamente de un experto!]
             </p>
-            <!-- TERMINA AQUÍ: Edita la descripción de la llamada a la acción de servicios -->
-            <!-- Botón de llamada a la acción para servicios - Puedes cambiar el texto del botón -->
             <button class="bg-white hover:bg-gray-100 text-indigo-700 font-bold py-4 px-10 rounded-full shadow-lg transform transition duration-300 hover:scale-105 focus:outline-none focus:ring-4 focus:ring-white">
                 [Quiero Saber Más sobre tus Servicios]
             </button>
@@ -161,9 +227,7 @@
     <!-- Pie de página -->
     <footer class="bg-gray-900 text-white p-8 mt-16 rounded-t-xl">
         <div class="container mx-auto flex flex-col md:flex-row justify-between items-center text-sm">
-            <!-- COMIENZA AQUÍ: Edita el texto del copyright en el pie de página -->
             <p class="mb-4 md:mb-0">&copy; 2025 [Tu Nombre / Tu Marca Financiera]. Todos los derechos reservados.</p>
-            <!-- TERMINA AQUÍ: Edita el texto del copyright en el pie de página -->
             <div class="flex space-x-6">
                 <!-- Puedes añadir iconos de redes sociales aquí (por ejemplo, Font Awesome o SVG) -->
                 <a href="#" class="hover:text-blue-400 transition duration-300">Facebook</a>
@@ -174,5 +238,5 @@
         </div>
     </footer>
 </body>
+
 </html>
-          
